@@ -1,19 +1,28 @@
-# GenAI Chatbot API
+GenAI Chatbot API
 
-A modular chatbot backend built using FastAPI with stateful memory.
+A modular chatbot backend built using FastAPI with stateful memory and structured API design.
 
-## Features
-- Chat endpoint
-- Conversation memory
+---
+
+## 🧠 Features
+
+- Chat endpoint with prompt handling
+- Stateful conversation memory
 - History retrieval
 - Reset functionality
+- Modular architecture (routes, services, models)
 
-## Tech Stack
+---
+
+## 🛠 Tech Stack
+
 - FastAPI
 - Pydantic
 - Python
 
-## Run Locally
+---
+
+## ️ Run Locally
 
 ```bash
 pip install -r requirements.txt
